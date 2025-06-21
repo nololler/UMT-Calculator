@@ -1,4 +1,4 @@
-This is the Ultimate Mininf Tycoon Calculator!
+This is the Ultimate Mininf Tycoon Calculator in python!
 Made by ME, HilPwX or Focalor!
 
 
@@ -10,7 +10,6 @@ The Configs folder is where the properties of ores, items, machines, and transpo
 Is also where the custom machines, ores, items, transports get saved to.
 
 Assets folder is where images, thumbnails, and other needed files are.
-
 
 
 Do not mind the mess, and this program being crippled, Im learning how to code in python :D
