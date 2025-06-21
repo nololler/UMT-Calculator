@@ -1,4 +1,5 @@
 This is the Ultimate Mininf Tycoon Calculator in python!
+
 Made by ME, HilPwX or Focalor!
 
 
