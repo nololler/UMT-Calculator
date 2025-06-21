@@ -15,4 +15,6 @@ Assets folder is where images, thumbnails, and other needed files are.
 
 Do not mind the mess, and this program being crippled, Im learning how to code in python :D
 
+hope i can get some help too
 
+# This is only the beginning
