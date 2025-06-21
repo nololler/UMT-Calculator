@@ -1,0 +1,78 @@
+
+
+
+
+def MachinesListWindowFunc():
+    # Dimensions for the secondary window
+    win_width, win_height = 300, 150
+
+    # Get main window position and size
+    windows.update_idletasks()
+    x = windows.winfo_x()
+    y = windows.winfo_y()
+    windows_width = windows.winfo_width()
+    windows_height = windows.winfo_height()
+
+    # Calculate position for centering
+    pos_x = x + (windows_width // 2) - (win_width // 2)
+    pos_y = y + (windows_height // 2) - (win_height // 2)
+
+    # This is the secondary window for the Machines list
+    # It will be a Toplevel window that appears when the Machines button is clicked
+    MachinesListWindow = ttk.Toplevel()
+    MachinesListWindow.title("Machines")
+    MachinesListWindow.geometry(f"{win_width}x{win_height}+{pos_x}+{pos_y}")
+    LabelTest = ttk.Label(MachinesListWindow,
+                          text="Select a Machine").pack(pady=0)
+    OrecleanerButton = ttk.Button(
+        MachinesListWindow, text="Ore Cleaner", command=lambda: print("Ore Cleaner Selected")).pack(pady=50, side='left')
+    PolsiherButton = ttk.Button(
+        MachinesListWindow, text="Polisher", command=lambda: print("Polisher Selected")).pack(pady=50, side='left')
+
+
+MachinesMenu = ttk.Button(Factory, text="Machines", command=MachinesListWindowFunc).grid(
+    column=10, row=0, padx=30, pady=30, sticky='e')
+
+
+
+
+
+
+    def MachinesListWindowFunc():
+    print("Machines List Window Opened")
+
+
+MachinesMenu = ttk.Button(Factory, text="Machines", command=MachinesListWindowFunc).grid(
+    column=10, row=0, padx=30, pady=30, sticky='e')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# The Add Machines Menu
+AddMachineMenu.columnconfigure(0, weight=1)
+AddMachineMenu.columnconfigure(1, weight=0)
+AddMachineMenu.rowconfigure(0, weight=0)
+AddMachineMenu.rowconfigure(1, weight=1)
+AddMachineMenu.rowconfigure(2, weight=0)
+AddMachineMenu.rowconfigure(3, weight=0)
+AddMachineMenu.rowconfigure(4, weight=0)
+AddMachineMenu.rowconfigure(5, weight=0)
+
+
+# Label for the Add Machine Menu, for testing purposes
+AddMachineMenuLabel = ttk.Label(AddMachineMenu, text="HIIIIII :DDD",
+                                font=('Arial', 16, 'bold'))
+AddMachineMenuLabel.grid(column=0, row=1, padx=10, pady=10, sticky='nw')
+
+MachineImage = tk.PhotoImage(AddMachineMenu, file='SuperCrawler.png')
+MachineImage.configure(width=100, height=100)

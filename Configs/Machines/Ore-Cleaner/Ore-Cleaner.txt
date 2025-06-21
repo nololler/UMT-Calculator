@@ -1,0 +1,24 @@
+Name = "Ore Cleaner"
+Cost = "80$"
+Description = "Adds $10 value to ores that have not already been cleaned."
+
+# Logic
+FlatAddition = "10"
+FlatSubtraction = "0"
+Multiplier = "0"
+Division = "0"
+
+ByProduct = "None, 0"
+
+Inputs = "1"
+Outputs = "1"
+
+Dimensions = "Layer1:1x1x1"
+
+Tags_Added = "Cleaned"
+
+Tags_Extract = "None"
+
+Tags_Accepted = "Any"
+
+Tags_Declined = "Cleaned"
