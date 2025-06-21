@@ -200,7 +200,7 @@ SaveMachineMoneyButton.configure(width=10)
 SaveMachineMoneyButton.grid(column=1, row=4, padx=10, pady=10, sticky='es')
 
 
-# Factory Plot Test
+# Factory Plot Test, doesnt do anything yet, jusr a placeholder
 BaseFactoryPlot = Image.open(r"Assets\Factory-Plot.png")
 FactoryPlot = BaseFactoryPlot.resize((800, 800))
 
@@ -208,7 +208,7 @@ FactoryPlot = ImageTk.PhotoImage(FactoryPlot)
 FactoryPlotLabel = ttk.Label(Factory, image=FactoryPlot)
 FactoryPlotLabel.grid(column=2, row=2, padx=10, pady=10, sticky='nsew')
 
-# Layer Text Test
+# Layer Text Test, same as above, just a placeholder
 LayerText = ttk.Label(Factory, text="Layer 1", font=('AppleSFPro', 20))
 LayerText.grid(column=2, row=2, padx=10, pady=10, sticky='e')
 
