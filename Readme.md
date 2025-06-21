@@ -18,3 +18,5 @@ Do not mind the mess, and this program being crippled, Im learning how to code i
 hope i can get some help too
 
 # This is only the beginning
+
+![In App Screenshot](Assets\Screenshot.png)
